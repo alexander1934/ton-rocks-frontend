@@ -1,0 +1,31 @@
+@import "@/styles/variables";
+
+.button {
+  height: max-content;
+  font-family: 'Circular Std', sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 23px;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.button:disabled:hover {
+  opacity: 0.3;
+}
+
+.button_disabled:hover {
+  opacity: 0.3;
+}
+
+.button_disabled {
+  opacity: 0.3;
+}

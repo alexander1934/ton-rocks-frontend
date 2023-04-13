@@ -1,0 +1,44 @@
+@import "@/styles/variables";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 93px;
+}
+
+// Left side of header
+
+.logoBlock {
+  display: flex;
+  align-items: center;
+  margin-left: 26px;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+}
+
+.headerName {
+  color: $additionalColor;
+  padding-left: 15px;
+}
+
+//Right side of header
+
+.authBlock {
+  display: flex;
+  align-items: center;
+  font-size: $h2;
+}
+
+.registrationButton {
+  background-color: $mainColor;
+  color: $additionalColor;
+}
+
+.loginButton {
+  color: $additionalColor;
+  margin: 0 25px;
+}
