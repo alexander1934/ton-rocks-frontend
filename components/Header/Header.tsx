@@ -1,8 +1,8 @@
-import s from "../../styles/Header.module.scss";
+import s from "@/styles/Header.module.scss";
 import React from "react";
 import logo from "@/public/ton_symbol.png";
 import Image from "next/image";
-import Button from "@/components/elements/Button/Button";
+import Button from "@/components/common/Button/Button";
 
 const Header: React.FC = () => {
     return (

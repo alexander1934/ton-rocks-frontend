@@ -1,9 +1,8 @@
-import Head from 'next/head'
-import s from '@/styles/Home.module.css'
-import Header from '@/components/Header/Header';
 import React from "react";
+import Head from "next/head";
+import Header from "@/components/Header/Header";
+import s from "@/styles/Home.module.css";
 import Sidebar from "@/components/Sidebar/Sidebar";
-import Account from "@/pages/account";
 
 export default function App(): React.ReactElement {
     return (
@@ -15,10 +14,9 @@ export default function App(): React.ReactElement {
                 <link rel="icon" href="/ton_symbol.png"/>
             </Head>
             <Header/>
-            <main className={s.mainSection}>
+            <div className={s.mainSection}>
                 <Sidebar/>
-                <Account />
-            </main>
+            </div>
         </React.Fragment>
     )
 }

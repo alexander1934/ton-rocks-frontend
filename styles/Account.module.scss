@@ -1,0 +1,76 @@
+@import "variables";
+
+.grid {
+  width: 100%;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 450px);
+  grid-template-rows: 250px 3fr;
+  grid-column-gap: 35px;
+  grid-row-gap: 35px;
+  margin: 0 150px 30px 100px;
+}
+
+.gridElement {
+  background-color: $additionalColor;
+  border-radius: 35px;
+}
+
+// Wallet block
+
+.wallet {
+  background-color: $mainColor;
+  color: $additionalColor;
+  padding: 30px;
+}
+
+.balanceBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.balanceLine {
+  font-size: $h2;
+}
+
+.cryptoBalance {
+  margin: 20px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+//Button styles
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    font-size: $h3;
+  }
+}
+
+.buttonsBlock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ }
+
+.buttonElement {
+  display: flex;
+  justify-content: center;
+  background-color: $additionalColor;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+  margin: 0 20px 5px;
+}
+
+.depositIcon {
+  padding-left: 2px;
+}

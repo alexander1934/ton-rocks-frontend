@@ -1,6 +1,6 @@
 import React from "react";
-import {LoaderSize} from "@/components/elements/Loader/Loader";
-import Loader from "@/components/elements/Loader/Loader";
+import {LoaderSize} from "@/components/common/Loader/Loader";
+import Loader from "@/components/common/Loader/Loader";
 import s from "./Button.module.scss";
 
 export type ButtonProps = React.PropsWithChildren<{

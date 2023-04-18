@@ -12,8 +12,17 @@ h1 {
     padding: 0;
     font-size: $h1;
     font-style: normal;
-    font-weight: 400;
-    line-height: 29px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.h2 {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: $h2;
+    line-height: 24px;
 }
 
 button {
@@ -23,5 +32,10 @@ button {
     color: inherit;
     background-color: transparent;
     cursor: pointer;
+}
+
+p {
+    padding: 0;
+    margin: 0;
 }
 
