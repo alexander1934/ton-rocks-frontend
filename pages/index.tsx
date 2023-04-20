@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import s from '@/styles/Home.module.css'
+import s from '@/styles/App.module.css'
 import Header from '@/components/Header/Header';
 import React from "react";
 import Sidebar from "@/components/Sidebar/Sidebar";

@@ -30,8 +30,48 @@ const Account: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <div className={`${s.gridElement} ${s.walletInfo}`}></div>
-            <div className={`${s.gridElement} ${s.lastTransactions}`}></div>
+            <div className={`${s.gridElement} ${s.walletInfo}`}>
+                <div className={s.blockHeader}>Информация:</div>
+                <div className={s.infoBlock}>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>Адрес кошелька:</div>
+                        <div className={s.infoValue}>1jfjvnf345f9</div>
+                    </div>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>Хэш кошелька:</div>
+                        <div className={s.infoValue}>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</div>
+                    </div>
+                </div>
+            </div>
+            <div className={`${s.gridElement} ${s.lastTransactions}`}>
+                <div className={s.blockHeader}>Информация:</div>
+                <div className={s.infoBlock}>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>Сделка на 1.43Tokens была совершена в 08:53</div>
+                    </div>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>Сделка на 0.032Tokens была совершена в 18:41</div>
+                    </div>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>Сделка на 0.032Tokens была совершена в 18:41</div>
+                    </div>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>Сделка на 0.032Tokens была совершена в 18:41</div>
+                    </div>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>Сделка на 0.032Tokens была совершена в 18:41</div>
+                    </div>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>Сделка на 0.032Tokens была совершена в 18:41</div>
+                    </div>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>Сделка на 0.032Tokens была совершена в 18:41</div>
+                    </div>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>Сделка на 0.032Tokens была совершена в 18:41</div>
+                    </div>
+                </div>
+            </div>
             <div className={`${s.gridElement} ${s.explorer}`}></div>
         </section>
     )

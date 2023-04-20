@@ -14,6 +14,8 @@
 .gridElement {
   background-color: $additionalColor;
   border-radius: 35px;
+  //overflow: scroll;
+  padding: 30px;
 }
 
 // Wallet block
@@ -21,7 +23,6 @@
 .wallet {
   background-color: $mainColor;
   color: $additionalColor;
-  padding: 30px;
 }
 
 .balanceBlock {
@@ -73,4 +74,33 @@
 
 .depositIcon {
   padding-left: 2px;
+}
+
+// Wallet Info Block
+
+.blockHeader {
+  font-size: $h2;
+  margin-bottom: 10px;
+}
+
+.infoBlock {
+  overflow: scroll;
+  height: 280px;
+}
+
+.infoElement {
+  display: flex;
+  align-items: center;
+  border-bottom: #E9E9E9 1px solid;
+  padding: 25px 0;
+}
+
+.infoKey {
+  //margin-right: 10px;
+  white-space: nowrap;
+}
+
+.infoValue {
+  margin-left: 10px;
+  word-break: break-all;
 }
