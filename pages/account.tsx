@@ -44,7 +44,7 @@ const Account: React.FC = () => {
                 </div>
             </div>
             <div className={`${s.gridElement} ${s.lastTransactions}`}>
-                <div className={s.blockHeader}>Информация:</div>
+                <div className={s.blockHeader}>Уведомления:</div>
                 <div className={s.infoBlock}>
                     <div className={s.infoElement}>
                         <div className={s.infoKey}>Сделка на 1.43Tokens была совершена в 08:53</div>
@@ -72,7 +72,43 @@ const Account: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <div className={`${s.gridElement} ${s.explorer}`}></div>
+            <div className={`${s.gridElement} ${s.explorer}`}>
+                <div className={s.blockHeader}>Explorer:</div>
+                <div className={s.infoBlock}>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>6853</div>
+                        <div className={s.infoValue}>(0,c000000000000000,6867):970C1D1525DB6EAB77C8A1C3FE3E343DCA15BF889C3A12</div>
+                    </div>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>6853</div>
+                        <div className={s.infoValue}>(0,c000000000000000,6867):970C1D1525DB6EAB77C8A1C3FE3E343DCA15BF889C3A12</div>
+                    </div>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>6853</div>
+                        <div className={s.infoValue}>(0,c000000000000000,6867):970C1D1525DB6EAB77C8A1C3FE3E343DCA15BF889C3A12</div>
+                    </div>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>6853</div>
+                        <div className={s.infoValue}>(0,c000000000000000,6867):970C1D1525DB6EAB77C8A1C3FE3E343DCA15BF889C3A12</div>
+                    </div>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>6853</div>
+                        <div className={s.infoValue}>(0,c000000000000000,6867):970C1D1525DB6EAB77C8A1C3FE3E343DCA15BF889C3A12</div>
+                    </div>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>6853</div>
+                        <div className={s.infoValue}>(0,c000000000000000,6867):970C1D1525DB6EAB77C8A1C3FE3E343DCA15BF889C3A12</div>
+                    </div>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>6853</div>
+                        <div className={s.infoValue}>(0,c000000000000000,6867):970C1D1525DB6EAB77C8A1C3FE3E343DCA15BF889C3A12</div>
+                    </div>
+                    <div className={s.infoElement}>
+                        <div className={s.infoKey}>6853</div>
+                        <div className={s.infoValue}>(0,c000000000000000,6867):970C1D1525DB6EAB77C8A1C3FE3E343DCA15BF889C3A12</div>
+                    </div>
+                </div>
+            </div>
         </section>
     )
 }
