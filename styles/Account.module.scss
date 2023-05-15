@@ -86,6 +86,9 @@
 .infoBlock {
   overflow: scroll;
   height: 280px;
+  :last-child {
+    border-bottom: none;
+  }
 }
 
 .infoElement {
@@ -96,7 +99,6 @@
 }
 
 .infoKey {
-  //margin-right: 10px;
   white-space: nowrap;
 }
 

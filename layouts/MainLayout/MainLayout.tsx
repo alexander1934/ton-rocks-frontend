@@ -1,11 +1,14 @@
-import Head from 'next/head';
-import s from '@/styles/App.module.css';
-import Header from '@/components/Header/Header';
 import React from "react";
+import Head from "next/head";
+import Header from "@/components/Header/Header";
+import s from "@/styles/App.module.css";
 import Sidebar from "@/components/Sidebar/Sidebar";
-import Account from "@/components/Account/Account";
 
-export default function App(): React.ReactElement {
+type MainLayoutProps = {
+    children: React.ReactNode,
+}
+
+export default function MainLayout(props: MainLayoutProps){
     return (
         <React.Fragment>
             <Head>
@@ -15,10 +18,10 @@ export default function App(): React.ReactElement {
                 <link rel="icon" href="/ton_symbol.png"/>
             </Head>
             <Header/>
-            <main className={s.mainSection}>
+            <div className={s.mainSection}>
                 <Sidebar/>
-                <Account />
-            </main>
+                {props.children}
+            </div>
         </React.Fragment>
     )
 }
