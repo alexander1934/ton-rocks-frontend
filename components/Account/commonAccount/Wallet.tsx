@@ -5,15 +5,20 @@ import getIcon from "@/public/walletButtons/getButton.svg";
 import sendIcon from "@/public/walletButtons/sendButton.svg";
 import depositIcon from "@/public/walletButtons/depositButton.svg";
 import React from "react";
+import {useSelector} from "react-redux";
 
 
-const Wallet = () => {
+const Wallet: React.FC = () => {
+
+    // @ts-ignore
+    const state = useSelector(state => state.wallet.balance);
+
     return (
         <div className={`${s.gridElement} ${s.wallet}`}>
             <div className={s.balanceLine}>Баланс:</div>
             <div className={s.balanceBlock}>
                 <div className={s.cryptoBalance}>0 Tokens</div>
-                <div className={s.currencyBalance}>В рублях: 0₽</div>
+                <div className={s.currencyBalance}>В рублях: {state}₽</div>
             </div>
             <div className={s.buttonsBlock}>
                 <div className={s.buttonGroup}>
